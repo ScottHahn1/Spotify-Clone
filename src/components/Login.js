@@ -57,7 +57,7 @@ export const Login = () => {
                                     <li>Click the "Get Client ID" button to log into the spotify api dashboard.</li>
                                     <li>Scroll down and click on the green "Log In" button and sign into your spotify account.</li>
                                     <li>Click the green "Create An App" button and give it any name and description.</li>
-                                    <li>Click the green "Edit settings" button and add "http://localhost:3000" to the Redirect Uris textbox. Press add. Scroll down and click save.</li>
+                                    <li>Click the green "Edit settings" button and add "https://scotthahn1.github.io/Spotify-Clone/" to the Redirect Uris textbox. Press add. Scroll down and CLICK SAVE.</li>
                                     <li>Copy and paste the client id found on the left side of the page, go back to the app tab and paste it in the textbox above the "Get Client ID" button.</li>
                                     <li>Click Login.</li>
                                 </ul>
