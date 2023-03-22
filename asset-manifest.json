@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Spotify-Clone/static/css/main.9e39e3cf.css",
-    "main.js": "/Spotify-Clone/static/js/main.37651e70.js",
+    "main.js": "/Spotify-Clone/static/js/main.fd23dc1b.js",
     "index.html": "/Spotify-Clone/index.html",
     "main.9e39e3cf.css.map": "/Spotify-Clone/static/css/main.9e39e3cf.css.map",
-    "main.37651e70.js.map": "/Spotify-Clone/static/js/main.37651e70.js.map"
+    "main.fd23dc1b.js.map": "/Spotify-Clone/static/js/main.fd23dc1b.js.map"
   },
   "entrypoints": [
     "static/css/main.9e39e3cf.css",
-    "static/js/main.37651e70.js"
+    "static/js/main.fd23dc1b.js"
   ]
 }
