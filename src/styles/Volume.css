@@ -1,0 +1,9 @@
+.volume-container {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.player-volume-icon {
+    height: 1rem;
+}

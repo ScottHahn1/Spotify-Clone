@@ -1,0 +1,28 @@
+nav {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+}
+
+.navbar {
+    margin-top: 3em;
+}
+
+.nav-items {
+    cursor: pointer;
+    color: lightgray;
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items :nth-child(2) {
+    padding-left: 10px;
+}
+
+.nav-items:hover {
+    color: white;
+}

@@ -1,0 +1,43 @@
+.followed-albums-container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+}
+
+.followed-albums {
+    color: white;
+    background-color: #292727;
+    margin-top: 10px;
+    margin-right: 2em;
+    line-height: 0;
+    text-align: left;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.followed-albums-img {
+    width: 80%;
+    align-self: center;
+}
+
+.followed-albums > *:nth-child(2):hover, .followed-albums > *:nth-child(3):hover {
+    animation: albumInfo 4s linear infinite alternate;
+}
+
+@keyframes albumInfo {
+    0%{transform: translateX(0);}
+    100%{transform: translateX(100%);}
+    0%{transform: translateX(0);}
+    100%{transform: translateX(-100%);}
+}
+
+.followed-albums > *:nth-child(3) {
+    color: lightgray;
+}
+
+.followed-albums > *:nth-child(2), .followed-albums > *:nth-child(3) {
+    padding-left: 10px;
+}

@@ -1,0 +1,55 @@
+.on-repeat-container {
+    background-color: #141414;
+    color: lightgrey;
+    padding-left: 12em;
+}
+
+.on-repeat-banner {
+    height: 20rem;
+    background: linear-gradient( rgb(185, 180, 180), rgb(110, 10, 119) );
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.on-repeat-img-container {
+    width: 20rem;
+    margin-left: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.on-repeat-banner-info {
+    margin-left: 2rem;
+}
+
+.on-repeat-banner-info :nth-child(2) {
+    margin-top: -.5rem;
+}
+
+.on-repeat-banner-info :nth-child(3) {
+    margin-top: -2rem;
+}
+
+.on-repeat-banner-info h1 {
+    font-size: 4rem;
+}
+
+.on-repeat-song, .on-repeat-songs-headings {
+    display: grid;
+    grid-template-columns: 2% 7% 40% repeat(4, 10%);
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 2em;
+    border-bottom: 1px solid rgb(79, 228, 79);
+}
+
+.on-repeat-song:hover {
+    background-color: rgb(41, 40, 40);
+}
+
+.on-repeat-song > *:nth-child(5) {
+    display: flex;
+    justify-content: center;
+}

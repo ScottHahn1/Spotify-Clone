@@ -1,0 +1,55 @@
+.artist-mix-container {
+    background-color: #141414;
+    color: lightgrey;
+    margin-left: 15%;
+}
+
+.artist-mix-banner {
+    height: 20rem;
+    background: linear-gradient( rgb(88, 82, 82), rgb(119, 5, 11) );
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.artist-mix-img-container {
+    width: 20rem;
+    margin-left: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist-mix-banner-info {
+    margin-left: 2rem;
+}
+
+.artist-mix-banner-info :nth-child(2) {
+    margin-top: -.5rem;
+}
+
+.artist-mix-banner-info :nth-child(3) {
+    margin-top: -2rem;
+}
+
+.artist-mix-banner-info h1 {
+    font-size: 4rem;
+}
+
+.artist-mix-song, .artist-mix-songs-headings {
+    display: grid;
+    grid-template-columns: 2% 7% 40% repeat(4, 10%);
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 2em;
+    border-bottom: 1px solid rgb(79, 228, 79);
+}
+
+.artist-mix-song:hover {
+    background-color: rgb(41, 40, 40);
+}
+
+.artist-mix-song > *:nth-child(5) {
+    display: flex;
+    justify-content: center;
+}

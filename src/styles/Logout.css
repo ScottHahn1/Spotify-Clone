@@ -1,0 +1,9 @@
+#logout-btn {
+    width: 8em;
+    height: 2em;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 1rem;
+}

@@ -1,0 +1,75 @@
+.recently-played-banner {
+    height: 20rem;
+    background: linear-gradient( rgb(185, 180, 180), rgb(80, 5, 129));
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.recently-played-banner-info {
+    margin-left: 2rem;
+}
+
+.recently-played-banner-info :nth-child(2) {
+    margin-top: -.5rem;
+}
+
+.recently-played-banner-info :nth-child(3) {
+    margin-top: -2rem;
+}
+
+.recently-played-banner-info h1 {
+    font-size: 4rem;
+}
+
+.banner-play-btn-container {
+    background-color: lightgray;
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid white;
+    border-radius: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width .5s, height .5s;
+}
+
+.banner-play-btn-container:hover {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.banner-play-btn {
+    cursor: pointer;
+    width: 100%;
+    height: 30%;
+    color: black;
+}
+
+.recently-played-container {
+    background-color: #141414;
+    color: lightgrey;
+    padding-left: 12em;
+}
+
+.recent-song, .songs-headings {
+    display: grid;
+    grid-template-columns: 2% 7% 40% repeat(4, 10%) 5%;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 2em;
+    border-bottom: 1px solid rgb(79, 228, 79);
+}
+
+.recent-song > *:nth-child(6) {
+    display: flex;
+    justify-content: center;
+}
+
+.recent-song:hover {
+    background-color: rgb(41, 40, 40);
+}
+
+.player-btn-icons .pause-play-song {
+    height: 1.5rem
+}

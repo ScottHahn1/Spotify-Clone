@@ -1,0 +1,9 @@
+.song-bar-length-container {
+    background-color: white;
+    width: 15rem;
+    height: 2rem;
+}
+
+.song-bar-length {
+    background-color: green;
+}
