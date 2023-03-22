@@ -36,7 +36,7 @@ export const Login = () => {
         const hash = window.location.hash;
         let token = localStorage.getItem('token');
         
-        if(!token && hash) {
+        if(!token && hash.length > 5) {
             token = hash.substring(1).split('&').find(elem => elem.startsWith('access_token')).split('=')[1];
 
             window.location.hash = '';
