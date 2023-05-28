@@ -136,7 +136,6 @@ function App() {
                             } />
 
                             <Route path='/playlists' element={
-                                transferred && 
                                 <TokenContext.Provider value={ {token, setToken} }>
                                     <PlaylistSongs 
                                         selectedPlaylist={selectedPlaylist} 
