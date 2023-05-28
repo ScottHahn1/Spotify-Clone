@@ -55,10 +55,11 @@ export const Login = () => {
                                 <h2>Steps to authorize your spotify account in order to use the spotify api.</h2>
                                 <ul>
                                     <li>Click the "Get Client ID" button to log into the spotify api dashboard.</li>
-                                    <li>Scroll down and click on the green "Log In" button and sign into your spotify account.</li>
-                                    <li>Click the green "Create An App" button and give it any name and description.</li>
-                                    <li>Click the green "Edit settings" button and add "https://scotthahn1.github.io/Spotify-Clone/" to the Redirect Uris textbox. Press add. Scroll down and CLICK SAVE.</li>
-                                    <li>Copy and paste the client id found on the left side of the page, go back to the app tab and paste it in the textbox above the "Get Client ID" button.</li>
+                                    <li>Click on the "Login" button at the top right of the page and log into your account.</li>
+                                    <li>Click on your Spotify username at the top right of the page and select "Dashboard"</li>
+                                    <li>Click the blue "Create app" button on the right of the page.</li>
+                                    <li>Enter a name and description. In the "Redirect URI" textbox copy and paste "https://scotthahn1.github.io/Spotify-Clone". Accept terms and click "Save".</li>
+                                    <li>Click "Settings" on the right of the page. Copy the Client Id and go back to the Spotify Clone app tab and paste it in the textbox above the "Get Client ID" button.</li>
                                     <li>Click Login.</li>
                                 </ul>
                                 <p>(If you get an INVALID_CLIENT error page it means the redirect uri is incorrect or the client id is incorrect. Make sure both have been correctly copied and pasted.)</p>
