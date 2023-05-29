@@ -58,7 +58,7 @@ export const Login = () => {
                                     <li>Click on the "Login" button at the top right of the page and log into your account.</li>
                                     <li>Click on your Spotify username at the top right of the page and select "Dashboard"</li>
                                     <li>Click the blue "Create app" button on the right of the page.</li>
-                                    <li>Enter a name and description. In the "Redirect URI" textbox copy and paste "https://scotthahn1.github.io/Spotify-Clone". Accept terms and click "Save".</li>
+                                    <li>Enter a name and description. In the "Redirect URI" textbox copy and paste "https://scotthahn1.github.io/Spotify-Clone/". Accept terms and click "Save".</li>
                                     <li>Click "Settings" on the right of the page. Copy the Client Id and go back to the Spotify Clone app tab and paste it in the textbox above the "Get Client ID" button.</li>
                                     <li>Click Login.</li>
                                 </ul>
