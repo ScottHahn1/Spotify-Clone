@@ -1,6 +1,7 @@
 .search-container {
     color: white;
     margin-left: 17%;
+    margin-top: 5rem;
 }
 
 form {
@@ -16,6 +17,7 @@ form {
     display: flex;
     margin-top: 10px;
     margin: 0;
+    padding-left: 1rem;
 }
 
 #fa-search {

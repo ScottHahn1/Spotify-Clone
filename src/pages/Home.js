@@ -11,14 +11,6 @@ import { RecentContext } from '../Contexts/RecentContext';
 import { GetFeatured } from '../components/GetFeatured';
 import { GetPopular } from '../components/GetPopular';
 
-const previousPage = () => {
-    window.history().back();
-}
-
-const nextPage = () => {
-    window.history.forward();
-}
-
 const changeClickedArtist = (clickedArtist, name, index, image) => {
     clickedArtist.current = { name, index, image }
 }
@@ -32,20 +24,6 @@ export const Home = ( { topArtists, setTopArtists, clickedArtist, clickedCategor
         token &&
         <div className='home'>
             <GetRecentlyPlayed />
-
-            <div className='home-banner'>
-                <div className='back-forward-container'>
-                    <button onClick={previousPage} className='back-forward-btn'> 
-                    {`<`} 
-                    </button>
-                    <button onClick={nextPage} className='back-forward-btn'> 
-                    {`>`} 
-                    </button>
-                </div>
-                <div className='logout'>
-                    <Logout setToken={setToken} />
-                </div>
-            </div>
 
             <GetTopArtists token={token} setTopArtists={setTopArtists} /> 
 

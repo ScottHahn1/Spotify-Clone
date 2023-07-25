@@ -3,7 +3,6 @@
     margin-top: 10px; 
     word-wrap: break-word;
     text-align: center; 
-    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(5, 20%);
 }
@@ -42,6 +41,8 @@
     color: white;
     padding-left: 5em;
     overflow: auto;
+    margin-top: 5rem;
+
 }
 
 .playlist-songs-banner-info {

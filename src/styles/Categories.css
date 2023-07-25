@@ -1,12 +1,12 @@
 .categories {
     display: grid;
     grid-template-columns: repeat(5, 20%);
-    /* margin-left: 15rem; */
     margin-left: 17%;
+    margin-top: 5rem;
 }
 
 .category-playlist {
-    margin-top: 2rem;
+    margin-top: 5rem;
     color: white;
     border: 2px solid seagreen;
     height: 15rem;

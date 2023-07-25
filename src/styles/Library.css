@@ -1,5 +1,6 @@
 .library-container {
     background-color: #141414;
+    margin-top: 5rem;
 }
 
 .library-nav {
@@ -86,6 +87,8 @@
     background-color: #141414;
     color: lightgrey;
     padding-left: 12em;
+    margin-top: 5rem;
+
 }
 
 .album-songs-banner {

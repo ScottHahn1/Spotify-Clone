@@ -4,7 +4,8 @@ import { TokenContext } from '../Contexts/TokenContext';
 
 export const Login = () => {
     const [clientId, setClientId] = useState(JSON.parse(sessionStorage.getItem('clientId')));
-    const redirectUri = 'https://scotthahn1.github.io/Spotify-Clone/';
+    // const redirectUri = 'https://scotthahn1.github.io/Spotify-Clone/';
+    const redirectUri = 'http://localhost:3000';
     const authEndpoint = 'https://accounts.spotify.com/authorize';
     const responseType = 'token';
     const scopes = [
