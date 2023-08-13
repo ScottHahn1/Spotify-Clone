@@ -6,7 +6,7 @@ const getTopArtists = async (token, setTopArtists) => {
         headers: {
             Authorization: `Bearer ${token}`
         },
-        parameters: {
+        params: {
             time_range: 'short_term'
         }
     });

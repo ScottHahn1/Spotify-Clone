@@ -1,6 +1,7 @@
 {
   "files": {
     "main.css": "/Spotify-Clone/static/css/main.a3cbf404.css",
+<<<<<<< Updated upstream
     "main.js": "/Spotify-Clone/static/js/main.9de2b5a1.js",
     "index.html": "/Spotify-Clone/index.html",
     "main.a3cbf404.css.map": "/Spotify-Clone/static/css/main.a3cbf404.css.map",
@@ -9,5 +10,15 @@
   "entrypoints": [
     "static/css/main.a3cbf404.css",
     "static/js/main.9de2b5a1.js"
+=======
+    "main.js": "/Spotify-Clone/static/js/main.11cc7da2.js",
+    "index.html": "/Spotify-Clone/index.html",
+    "main.a3cbf404.css.map": "/Spotify-Clone/static/css/main.a3cbf404.css.map",
+    "main.11cc7da2.js.map": "/Spotify-Clone/static/js/main.11cc7da2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3cbf404.css",
+    "static/js/main.11cc7da2.js"
+>>>>>>> Stashed changes
   ]
 }
