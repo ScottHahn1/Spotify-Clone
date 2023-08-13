@@ -5,6 +5,9 @@ const getTopArtists = async (token, setTopArtists) => {
     const {data} = await axios.get('https://api.spotify.com/v1/me/top/artists', {
         headers: {
             Authorization: `Bearer ${token}`
+        },
+        parameters: {
+            time_range: 'short_term'
         }
     });
 
