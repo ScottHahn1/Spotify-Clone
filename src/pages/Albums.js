@@ -13,7 +13,7 @@ export const Albums = ( {selectedAlbum} ) => {
 
             <div className='followed-albums-container'>
                 {
-                    albums.map((album, index) => (
+                    albums.map(album => (
                         <Link to='/albums'>
                             <div className='followed-albums' onClick={ () => selectedAlbum.current = album }>
                                 <img className='followed-albums-img' src={album.image[0]} alt={album.name} />

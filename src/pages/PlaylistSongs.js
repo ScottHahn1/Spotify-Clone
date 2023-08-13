@@ -86,7 +86,7 @@ export const PlaylistSongs = ( {selectedPlaylist, setQueuedSongs, setCurrentSong
                 <img 
                     src={selectedPlaylist.current.image} 
                     className='playlist-songs-img' 
-                    alt='Playlist' 
+                    alt={selectedPlaylist.current.title}
                 /> 
                 : 
                 <FaMusic id='fa-music' /> }
@@ -109,8 +109,6 @@ export const PlaylistSongs = ( {selectedPlaylist, setQueuedSongs, setCurrentSong
                     </div>
                 </div>
             </section>
-
-            {/* <h3>Popular Songs</h3> */}
 
             <div className='playlist-songs-container'>
                 <div className='playlist-songs-headings'>

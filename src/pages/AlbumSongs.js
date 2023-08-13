@@ -82,7 +82,7 @@ export const AlbumSongs = ( {selectedAlbum, setQueuedSongs, setCurrentSong, setP
         <div className='album-songs'>
             <section className='album-songs-banner'>
                 <div className='album-songs-img-container'>
-                    <img className='album-songs-img' src={selectedAlbum.current.image[1]} />
+                    <img className='album-songs-img' src={selectedAlbum.current.image[1]} alt={selectedAlbum.current.name} />
                 </div>
 
                 <div className='album-songs-banner-info'>
@@ -123,7 +123,7 @@ export const AlbumSongs = ( {selectedAlbum, setQueuedSongs, setCurrentSong, setP
             {songs.map((song, index) => (
                 <div className='album-song'>
                     <p>{index + 1}</p>
-                    <img src={selectedAlbum.current.image[2]}  alt={song.title} />
+                    <img src={selectedAlbum.current.image[2]} alt={song.title} />
 
                     <div className='title-artist'>
                         <h4>{song.title}</h4>

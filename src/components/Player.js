@@ -73,7 +73,7 @@ export const Player = ( {currentSong, setCurrentSong, deviceId, paused, setPause
         <div className='player-container'>
             <div className='player-song-info'>
                 <div className='player-song-img'>
-                    <img src={currentSong.image[2]} />
+                    <img src={currentSong.image[2]} alt={currentSong.title} />
                 </div>
 
                 <div className='player-title-artist'>

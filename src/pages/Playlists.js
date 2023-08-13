@@ -56,11 +56,11 @@ export const Playlists = ( {queuedSongs, setQueuedSongs, setPaused, setPlay, sel
             <GetPlaylists playlists={playlists} setPlaylists={setPlaylists} songs={songs} setSongs={setSongs} /> 
             
             {
-                playlists.map((playlist, index) => (
+                playlists.map(playlist => (
                     <Link to='/playlists'>
                         <div className='playlist' onClick={ () => selectedPlaylist.current = playlist }>
                             <div className='playlist-img'>
-                                {playlist.image !== null ? <img src={playlist.image} width={'100%'} height={'100%'} alt='Playlist' /> : <FaMusic id='fa-music' /> }
+                                {playlist.image !== null ? <img src={playlist.image} width={'100%'} height={'100%'} alt={playlist.title} /> : <FaMusic id='fa-music' /> }
                             </div>
                             <h4>{playlist.title}</h4>
                         </div>

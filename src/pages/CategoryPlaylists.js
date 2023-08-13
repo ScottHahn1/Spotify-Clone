@@ -41,7 +41,7 @@ export const CategoryPlaylists = ( {clickedCategory, clickedPlaylist, selectedPl
         <div className='catgegory-playlists-container'>
             <div className='category-playlists'>
                 {
-                    playlists.map((playlist, index) => 
+                    playlists.map(playlist => 
                         <Link to='/playlists'>
                             <div className='category-playlist' onClick={ () => selectedPlaylist.current = playlist }>
                                 <img className='category-img' src={playlist.image} alt={playlist.title} />

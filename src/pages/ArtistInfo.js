@@ -108,7 +108,7 @@ export const ArtistInfo = ( {selectedArtist, setQueuedSongs, setCurrentSong, set
         <div className='artist-songs-albums'>
             <section className='artist-songs-albums-banner'>
                 <div className='artist-songs-albums-img-container'>
-                    <img className='artist-songs-albums-img' src={selectedArtist.current.image} />
+                    <img className='artist-songs-albums-img' src={selectedArtist.current.image} alt={selectedArtist.current.name} />
                 </div>
               
                 <div className='artist-songs-albums-banner-info'>

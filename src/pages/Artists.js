@@ -13,7 +13,7 @@ export const Artists = ( {selectedArtist} ) => {
 
             <div className='followed-artists-container'>
                 {
-                    artists.map((artist, index) => (
+                    artists.map(artist => (
                         <Link to='/artists'>
                             <div className='followed-artists' onClick={ () => selectedArtist.current = artist }>
                                 <img className='followed-artists-img' src={artist.image} alt={artist.name} />

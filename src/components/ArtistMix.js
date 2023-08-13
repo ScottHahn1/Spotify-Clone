@@ -105,7 +105,7 @@ export const ArtistMix = ( {topArtists, token, clickedArtist, setQueuedSongs, se
         <div className='artist-mix-container'>
             <section className='artist-mix-banner'>
                 <div className='artist-mix-img-container'>
-                    <img className='artist-mix-img' src={clickedArtist.current.image} />
+                    <img className='artist-mix-img' src={clickedArtist.current.image} alt={clickedArtist.current.name} />
                 </div>
                 <div className='artist-mix-banner-info'>
                     <h2>Playlist</h2>

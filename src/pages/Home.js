@@ -2,7 +2,6 @@ import React from 'react';
 import { useContext, useState } from 'react';
 import '../styles/Home.css';
 import { Link } from 'react-router-dom';
-import { Logout } from '../components/Logout';
 import { TokenContext } from '../Contexts/TokenContext';
 import { GetTopArtists } from '../components/GetTopArtists';
 import { GetRecentlyPlayed } from '../components/GetRecentlyPlayed';
